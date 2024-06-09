@@ -1,3 +1,23 @@
+
+#logo{
+    width: auto;
+    position: absolute;
+    background-image: url(img/pattern.png);
+    background-repeat: repeat-x
+}
+
+.background{
+    
+}
+
+
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+
 .evidenziato {
     background: yellow;
 }
@@ -21,9 +41,6 @@ h1{
     font-size: 12px;
 }
 
-#logo{
-    width: 250px;
-}
 
 .foto{
     margin-bottom: 0%;
@@ -36,16 +53,40 @@ h1{
 margin-bottom: 2%;
 }
 
-body{
-    margin-left: 10%;
-    margin-right: 10%;
-    align-items: center;
-}
-
 .text{
     font-size: 13px;
 }
 
 li{
     font-size: 13px;
+}
+
+th{
+    background-color: rgb(68, 211, 224);
+    width: 10%;
+    height: auto;
+}
+
+.testolungo{
+    width: 30%;
+}
+
+.chiaro{
+    background-color: rgb(165, 191, 198);
+}
+
+.scuro{
+    background-color: rgb(66, 174, 184);
+}
+
+table{
+    margin-bottom: 3%;
+}
+
+footer{
+    background-color: darkblue;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    
 }
