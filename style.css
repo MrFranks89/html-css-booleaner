@@ -6,13 +6,13 @@ body{
 .page-header{
     background-image: url(img/pattern.png);
     background-size: 32%;
-    background-color: rgb(29, 255, 255);
-    padding: 30px;
+    background-color: rgb(159, 228, 255);
+    padding: 30px 20px;
 }
 .logo{
-    height: 45px;
+    height: 50px;
     position: relative;
-    padding-left: 120px
+    margin-left: 9%;
     /* top: 30%; */
 }
 
@@ -23,8 +23,10 @@ main{
     align-items: center;
 }
 
-.evidenziato {
-    background: yellow;
+/* inizio titolo e foto */
+
+main a{
+    text-decoration: none;
 }
 
 #boo {
@@ -49,6 +51,7 @@ h1{
 
 #data{
     font-size: 12px;
+    padding-bottom: 10px;
 }
 
 .foto{
@@ -61,36 +64,50 @@ h1{
     margin-bottom: 1%;
 }
 
+/* Fine titolo e foto */
+
 .text{
     font-size: 13px;
 }
 
 li{
     font-size: 13px;
-    margin-left: 0px;
+    padding: 0;
 }
 
-table{
-    margin-bottom: 3%;
-    font-size: 13px;
+ul{
+    padding-left: 1%;
 }
 
-th{
+.table{
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.table thead tr{
+    text-align: left;
+    background-color: rgb(159, 228, 255);
+}
+/* th{
     background-color: rgb(68, 211, 224);
-    width: 10%;
-    height: auto;
-}
+    text-align: left;
+} */
 
 .testolungo{
-    width: 30%;
+    width: 50%;
+}
+
+.w-25{
+    width: 25%;
 }
 
 .chiaro{
-    background-color: rgb(165, 191, 198);
+    background-color: rgb(219, 227, 230);
 }
 
 .scuro{
-    background-color: rgb(66, 174, 184);
+    background-color:rgb(159, 228, 255);
 }
 
 footer{
@@ -98,7 +115,5 @@ footer{
     font-size: 10px;
     text-align: center;
     color: white;
-    border: 10px solid darkblue;
-    width: 100%;
-    height: 100%;
+    padding: 16px;
 }
