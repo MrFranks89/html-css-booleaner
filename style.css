@@ -1,19 +1,19 @@
 body{
     position: relative;
+    margin: 0;
 }
 
-header{
-    height: 100px;
+.page-header{
     background-image: url(img/pattern.png);
-    background-repeat: repeat;
-    background-size: contain;
-    background-color: rgb(63, 200, 200);
+    background-size: 32%;
+    background-color: rgb(29, 255, 255);
+    padding: 30px;
 }
-#logo{
-    height: 50px;
+.logo{
+    height: 45px;
     position: relative;
-    top: 30%;
-    left: 10%;
+    padding-left: 120px
+    /* top: 30%; */
 }
 
 
